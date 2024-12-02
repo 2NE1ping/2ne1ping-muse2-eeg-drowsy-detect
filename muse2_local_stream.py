@@ -97,7 +97,7 @@ try:
             send_to_flask(eeg_data_processed)
 
         # 0.1초 대기
-        time.sleep(0.1)
+        time.sleep(1)
 
 except KeyboardInterrupt:
     print("Streaming stopped by user.")
